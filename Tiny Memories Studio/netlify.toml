@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+  command = ""
+
+# Redirect all requests to index.html (useful for single-page apps or cleaner URL handling)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
